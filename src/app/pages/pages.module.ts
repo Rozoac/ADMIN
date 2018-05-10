@@ -9,6 +9,7 @@ import { SharedModule } from '../shared/shared.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 // SERVICIOS
 
@@ -17,7 +18,8 @@ import { PagesComponent } from './pages.component';
   declarations: [
     DashboardComponent,
     ProgressComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ],
   exports: [
     DashboardComponent,
